@@ -1,0 +1,112 @@
+	
+*{
+	box-sizing: border-box;
+
+		}
+
+#htm {			
+			 background-image: linear-gradient(to right bottom, #371677,#007794,#007A8D,#07BF89,#FF9855,#F21B61);
+  			height:100%;
+  			background-size:cover;
+  			overflow:auto;
+
+
+	}
+
+	h4 {
+		width:150px;
+		
+		float:left;
+		border:1px groove #C9E0EF;
+		padding:5px 0px 5px 30px;
+		color: #FE3D4F;
+		background-color: #000000;
+		margin-top:5px;
+		overflow-x: auto;
+		opacity: 65%;
+		}
+
+	#table-box{
+		width:755px;
+		margin:0 auto;
+		margin-top: 30px;
+		display: none;
+		}
+
+#tabl>table{
+	background-color: #000000;
+	font-size: 15px;
+	margin: 0 auto;	
+	color: #FE3D4F;	width: 755px;
+	font-family: 'Times New Roman', serif;
+	overflow-x: auto;
+	opacity: 60%;
+	}
+
+#head{
+	width: 100%;
+	height:60px;
+	font-family: 'Brush Script MT', cursive;
+	font-size: 22px;
+
+
+}
+#clr{
+		clear: both;
+	}
+	
+
+#input-box{
+		width:400px;
+		margin:10px;
+		
+		
+		float: left;
+	}
+	
+.formname{
+		font-size: 15px;
+		font-weight: bold;
+		padding-left:10px;
+		margin: 10px;
+		font-family: 'Times New Roman', serif;
+		width:170px;
+		height:20px;
+		float :left;
+	
+	}
+
+.inputfield{
+		font-size: 13px;
+		font-weight: bold;
+		padding-left:10px;
+		//background-image: linear-gradient(to right bottom, #291E4F,#015059,#798853,#997F4C);
+		background-color: #D2D7E7;
+		margin: 10px;
+		border:1px groove black;
+		color: #black;
+		font-family: 'Times New Roman', serif;
+		width:170px;
+		height:20px;
+		float :right;
+
+}
+	
+#spacing{
+		margin: 2px 5px 2px 300px;
+		color: black;
+		width:20px;
+		}
+	
+.cal{
+
+		width:80px;
+		font-size: 15px;
+		font-weight: 550;
+		padding:5px;
+		margin:30px 10px 30px 10px;
+		background-color: #351778;
+		position: relative;
+		left:105px;
+		border:1px #1A73E8 groove;
+	}

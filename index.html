@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html id="htm">
+
+<head>
+
+<title>Task2 Financial</title>
+<link rel="stylesheet" href="task2.css">
+
+</head>
+
+<body id="bdy">
+
+	<script src="task2.js"></script>
+	<div id="head"><h1 align="center">LOAN CALCULATOR</h1></div>
+	<div id="clr"></div>
+
+	<div id="input-box"> 
+
+	<p class="formname">Principal:</p><input type="text" placeholder="Enter principal" value=""class="inputfield" id="principal1"><br>
+
+	<p class="formname">Annual intrest:</p><input type="text" placeholder="Enter intrest%" value=""class="inputfield" id="intrest1"><br>
+
+	<p class="formname">Duration in months:</p><input type="text" placeholder="months" value="" class="inputfield" id="term"> <br>
+	<div id="spacing">or</div>
+
+	<p class="formname">Duration in years:</p><input type="text" placeholder="years" value="" class="inputfield" id="termy"><br>
+	<button  id="calculate" onclick="display()" class="cal">Calculate</button>
+
+	<button  id="reset" onclick="restval()" class="cal">Reset</button>
+	
+	</div>
+	
+	<div id="clr"></div>
+	<div id="table-box" class="style1">
+	
+	<h4>Payment<br>No</h4>
+	
+	<h4>Payment<br>Amount</h4>
+	
+	<h4>Principal<br>Amount Paid</h4>
+	
+	<div  ><h4>Intrest<br>Amount Paid</h4></div>
+	
+	<div  ><h4>Remaining<br>Amount</h4></div>
+	
+	</div>
+	<div id="tabl"></div>
+
+</body>
+
+</html>
